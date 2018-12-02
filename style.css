@@ -1,0 +1,263 @@
+body{
+    margin: 0px;
+}
+
+.navbar-wrapper{
+    position: fixed;
+    z-index: 1000;
+}
+
+.navbar-left {
+    background-color: #fff;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    width: 600px;
+    float: left;
+    padding-top: 16px;
+   
+    padding-left: 10px !important;
+}
+
+
+.navbar-left a {
+    overflow: hidden;
+    display: block;
+    float: left;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    height: 33px;
+   
+}
+
+
+.navbar-left a:hover {
+    border-bottom: 3px solid #2b7bcd;
+    color: black;
+}
+
+
+.navbar-left a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.navbar-right {
+    background-color: #fff;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    width: 450px;
+    float: left;
+    
+   padding-left: 90px;
+    padding-top: 16px;
+}
+
+
+.navbar-right a {
+    overflow: hidden;
+    display: block;
+    float: left;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: .05em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    height: 33px;
+
+}
+
+
+.navbar-right a:hover {
+    border-bottom: 3px solid #2b7bcd;
+    color: black;
+}
+
+
+.navbar-right a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+i {
+    
+}
+
+.down {
+    border: 1px solid #2b7bcd;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.right {
+    margin-left: 20px;
+    border: 1px solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+header{
+    
+    height: 86px;
+}
+
+.volvo-logo-wrapper{
+    
+    padding-top: 13px;
+    height: 70px;
+     float: left;
+    background-color: #fff;
+
+   width: 200px;
+}
+
+.volvo-logo{
+    padding-left: 90px;
+}
+
+.search-button{
+    border-left: 1px solid #d3d3d3;
+    height: 63px;
+    width: 86px;
+   float: right;
+   
+   padding-top: 20px;
+   background-color: #fff;
+   
+}
+
+.search-icon{
+    padding-left: 24px;
+    padding-top: 8px;
+}
+
+.avicii-cover{
+    background-image: url("avicii.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+
+.zlatan-cover{
+    background-image: url("zlatan-volvo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+
+.row{
+    display: flex;
+    position: relative;
+}
+
+.three-image{
+    height: 304px;
+    flex: 33.33%;
+    margin-top: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.three-image img{
+    filter: brightness(50%);
+}
+
+.service-text{
+    font-weight: 100;
+    color: #fff;
+    font-size: 2em;
+    position: absolute;
+    top: 40%;
+   left: 16%;
+    transform: translate(-50%, -50%);
+}
+
+.lager-text{
+    font-weight: 100;
+    color: #fff;
+    font-size: 2em;
+    position: absolute;
+    top: 40%;
+   left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.kundcenter-text{
+    z-index: 100;
+    color: #fff;
+    font-size: 2em;
+    position: absolute;
+    top: 40%;
+   left: 85%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+footer{
+    background-color: #161618;
+    height: 340px;
+}
+
+.footer-links{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.footer-links a{
+    line-height: 40px;
+    padding: 20px;
+    font-weight: 100;
+    color: #a6a6a6;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Volvo Sans Light","Arial Narrow","Helvetica Neue",sans-serif;
+}
+
+.sociala-medier{
+    text-align: center;
+    padding-top: 30px;
+}
+.fa-facebook {
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-twitter {
+
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-instagram {
+    color: white;
+    padding: 10px;
+    font-size: 3px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+}
